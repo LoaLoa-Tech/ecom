@@ -68,7 +68,7 @@ npm i
 
 #### Run with development
 
-Create JSON in ./config/<user_email>__-dev.json__
+Create JSON in ./config/<user_email>__-dev.json__ ([example](https://github.com/LoaLoa-Tech/ecom-client/blob/master/config/yensaodatquang.json))
 
 Required JSON file above in ./config/index.js
 
@@ -78,7 +78,7 @@ npm run dev
 
 #### Build Static File
 
-Create JSON in ./config/<user_email>.json ([example](https://github.com/LoaLoa-Tech/ecom-client/config/yensaodatquang.json))
+Create JSON in ./config/<user_email>.json ([example](https://github.com/LoaLoa-Tech/ecom-client/blob/master/config/yensaodatquang.json))
 
 Required JSON file above in ./config/index.js
 
