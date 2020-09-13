@@ -37,7 +37,7 @@ git checkout master
 npm i
 ```
 
-Move static file to ./<user_email> ([example] (!https://github.com/LoaLoa-Tech/ecom-static/tree/master/yensaodatquang))
+Move static file to ./<user_email> [example](!https://github.com/LoaLoa-Tech/ecom-static/tree/master/yensaodatquang)
 
 ```
 git add .
