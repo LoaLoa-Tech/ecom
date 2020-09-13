@@ -5,7 +5,7 @@
 
 This is admin for seller. provide Graphql API.
 
-### Clone Responsitory
+#### Clone Responsitory
 
 ```
 git clone git@github.com:LoaLoa-Tech/ecom-admin.git
@@ -14,13 +14,13 @@ git checkout 4.0.1
 npm i
 ```
 
-### Run with development
+#### Run with development
 
 ```
 npm run dev
 ```
 
-### Deployment 
+#### Deployment 
 
 ```
 npm run build
@@ -33,7 +33,7 @@ git push origin 4.0.1
 
 This is client website. Using Ecommerce Admin Graphql API. It was build by Ecommerce Client.
 
-### Clone Responsitory
+#### Clone Responsitory
 
 ```
 git clone git@github.com:LoaLoa-Tech/ecom-static.git
@@ -57,7 +57,7 @@ git push origin master
 
 Using Ecommerce Admin Graphql API to build client static website from json file.
 
-### Clone Responsitory
+#### Clone Responsitory
 
 ```
 git clone git@github.com:LoaLoa-Tech/ecom-client.git
@@ -66,7 +66,7 @@ git checkout master
 npm i
 ```
 
-### Run with development
+#### Run with development
 
 Create JSON in ./config/<user_email>__-dev.json__
 
@@ -76,7 +76,7 @@ Required JSON file above in ./config/index.js
 npm run dev
 ```
 
-### Build Static File
+#### Build Static File
 
 Create JSON in ./config/<user_email>.json ([example](https://github.com/LoaLoa-Tech/ecom-client/config/yensaodatquang.json))
 
@@ -88,7 +88,7 @@ npm run export
 
 Then, the file export in ./out
 
-### Deployment 
+#### Deployment 
 
 You only deploy by move static file and push to __[Ecommerce Static](#ecommerce-static)__
 
