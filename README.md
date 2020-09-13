@@ -77,7 +77,7 @@ npm run dev
 
 ### Build Static File
 
-Create JSON in ./config/<user_email>.json ([example](!https://github.com/LoaLoa-Tech/ecom-client/config/yensaodatquang.json))
+Create JSON in ./config/<user_email>.json ([example](https://github.com/LoaLoa-Tech/ecom-client/config/yensaodatquang.json))
 
 Required JSON file above in ./config/index.js
 
@@ -91,16 +91,5 @@ Then, the file export in ./out
 
 You only deploy by move static file and push to __[Ecommerce Static](https://github.com/truongduchuy910/ecom-static)__
 
-### Build Static File
 
-First, get all user with __Ecommerce Admin__ [API](https://github.com/truongduchuy910/ecom-admin/docs/API.MD)
-
-Create JSON in ./config/<user_email>.json ([example](!https://github.com/LoaLoa-Tech/ecom-client/config/yensaodatquang.json))
-
-Required JSON file above in ./config/index.js
-
-Next, let's export:
-
-```
-npm run export
 ```
