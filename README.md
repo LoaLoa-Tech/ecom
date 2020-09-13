@@ -90,5 +90,5 @@ Then, the file export in ./out
 
 ### Deployment 
 
-You only deploy by move static file and push to __[Ecommerce Static](https://github.com/truongduchuy910/ecom-static)__
+You only deploy by move static file and push to __[Ecommerce Static](#ecommerce-static)__
 
