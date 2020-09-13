@@ -1,4 +1,4 @@
-# ecom
+# Ecommerce
 
 ## Ecommerce Admin
 
