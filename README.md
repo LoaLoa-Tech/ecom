@@ -1,29 +1,97 @@
 # ecom
 
-## Getting Started
+## Ecommerce Admin
 
-### Run Ecommerce Admin API
+### Clone Responsitory
+
+```
+git clone git@github.com:LoaLoa-Tech/ecom-admin.git
+cd ecom-admin
+git checkout 4.0.1
+npm i
 ```
 
+### Run with development
+
+```
+npm run dev
 ```
 
+### Deployment 
+
+```
+npm run build
+git add .
+git commit -m "build"
+git push origin 4.0.1
+```
+
+## Ecommerce Static
+
+### Clone Responsitory
+
+```
+git clone git@github.com:LoaLoa-Tech/ecom-static.git
+cd ecom-admin
+git checkout master
+npm i
+```
+
+Move static file to ./<user_email> ([example] (!https://github.com/LoaLoa-Tech/ecom-static/tree/master/yensaodatquang))
+
+```
+git add .
+git commit -m "upload"
+git push origin master
+```
+
+
+
+
+## Ecommerce Client
+
+
+### Clone Responsitory
+
+```
+git clone git@github.com:LoaLoa-Tech/ecom-client.git
+cd ecom-admin
+git checkout master
+npm i
+```
+
+### Run with development
+
+Create JSON in ./config/<user_email>__-dev.json__
+Required JSON file above in ./config/index.js
+
+```
+npm run dev
+```
 
 ### Build Static File
 
-First, get all user with [Graphql API](!https://github.com/truongduchuy910/ecommerce.loaloa.me)
+Create JSON in ./config/<user_email>.json ([example](!https://github.com/LoaLoa-Tech/ecom-client/config/yensaodatquang.json))
+Required JSON file above in ./config/index.js
 
-Create [JSON](!https://github.com/truongduchuy910/ecom-ui/blob/master/config/yensaodatquang.json) in ./config/<user_email>.json
-Change [require direction](!https://github.com/truongduchuy910/ecom-ui/blob/master/config/index.js) in ./config/index.js
+```
+npm run export
+```
+
+Then, the file export in ./out
+
+### Deployment 
+
+You only deploy by move static file and push to __[Ecommerce Static](!https://github.com/truongduchuy910/ecom-static)__
+
+### Build Static File
+
+First, get all user with __Ecommerce Admin__ [API](!https://github.com/truongduchuy910/ecom-admin/docs/API.MD)
+Create JSON in ./config/<user_email>.json ([example](!https://github.com/LoaLoa-Tech/ecom-client/config/yensaodatquang.json))
+Required JSON file above in ./config/index.js
 
 Next, let's export:
 
 ```
 npm run export
 ```
-
-### Push Static File
-
-Move file exporting to [ThousandTimes] (!https://github.com/LoaLoa-Tech/ThousandTimes)
-
-First, create 
-
