@@ -1,5 +1,5 @@
 # Ecommerce
-
+[loaloa.tech](https://loaloa.tech/assets/img/ecommerce.png)
 
 ## Ecommerce Admin
 
@@ -92,5 +92,3 @@ Then, the file export in ./out
 
 You only deploy by move static file and push to __[Ecommerce Static](https://github.com/truongduchuy910/ecom-static)__
 
-
-```
