@@ -5,6 +5,8 @@
 
 This is admin for seller. provide Graphql API.
 
+### Setting
+
 #### Clone Responsitory
 
 ```
@@ -27,6 +29,142 @@ npm run build
 git add .
 git commit -m "build"
 git push origin 4.0.1
+```
+### Using
+
+#### Banner
+
+query
+
+```
+query($seller: UserWhereInput) {
+  allBanners(where: { seller: $seller }) {
+    id
+    file {
+      publicUrl
+    }
+  }
+}
+```
+
+variables
+
+```
+{ seller: { id: <seller-id> } }
+```
+
+#### Attributes
+
+query
+
+```
+ query($seller: UserWhereInput) {
+    allAttributes(where: { seller: $seller }) {
+      id
+      name
+      url
+    }
+  }
+```
+
+variables
+
+```
+{ seller: { id: <seller-id> } }
+```
+#### Brands
+
+query
+
+```
+  query($seller: UserWhereInput) {
+    allBrands(where: { seller: $seller }) {
+      id
+      name
+      url
+    }
+  }
+```
+
+variables
+
+```
+{ seller: { id: <seller-id> } }
+```
+#### Cart
+
+query 
+
+```
+export const CREATE_ORDER_ITEMS = gql`
+  mutation($data: [OrderItemsCreateInput]) {
+    createOrderItems(data: $data) {
+      id
+    }
+  }
+`;
+```
+
+variables 
+
+```
+[
+  {
+    data: {
+      product: { connect: { id: <product-id> } },
+      price: <price>,
+      quantity: <quantity>,
+    },
+  },
+  ...
+]
+```
+
+query 
+
+```
+export const CREATE_ORDER = gql`
+  mutation(
+    $items: [OrderItemWhereUniqueInput]
+    $customer: CustomerWhereUniqueInput
+    $ofSeller: UserWhereUniqueInput
+    $total: Int
+  ) {
+    createOrder(
+      data: {
+        customer: { connect: $customer }
+        items: { connect: $items }
+        ofSeller: { connect: $ofSeller }
+        total: $total
+      }
+    ) {
+      id
+      seller {
+        id
+      }
+      items {
+        id
+        product {
+          image {
+            publicUrl
+          }
+          images {
+            file {
+              publicUrl
+            }
+          }
+          name
+        }
+        price
+        quantity
+        attributes {
+          id
+          name
+        }
+      }
+    }
+  }
+`;
 ```
 
 ## Ecommerce Static
