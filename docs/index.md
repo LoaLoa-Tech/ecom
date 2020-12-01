@@ -1,5 +1,6 @@
 ---
 repo_url: https://github.com/LoaLoa-Tech/ecom
+layout: default
 ---
 
 <h1>Welcome</h1>

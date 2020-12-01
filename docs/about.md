@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Ecommerce
 ## Về Ecommerce
 
