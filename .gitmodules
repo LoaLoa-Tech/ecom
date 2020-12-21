@@ -1,11 +1,11 @@
-[submodule "APIs/Ecom-CMS"]
-	path = APIs/Ecom-CMS
+[submodule "backends/Ecom-CMS"]
+	path = backends/Ecom-CMS
 	url = git@github.com:LoaLoa-Tech/Ecom-CMS.git
-[submodule "APIs/ecom-admin"]
-	path = APIs/ecom-admin
+[submodule "backends/ecom-admin"]
+	path = backends/ecom-admin
 	url = git@github.com:LoaLoa-Tech/ecom-admin.git
-[submodule "APIs/ezapi"]
-	path = APIs/ezapi
+[submodule "backends/ezapi"]
+	path = backends/ezapi
 	url = git@github.com:LoaLoa-Tech/ezapi.git
 [submodule "frontends/Ecom-UI-Standard"]
 	path = frontends/Ecom-UI-Standard

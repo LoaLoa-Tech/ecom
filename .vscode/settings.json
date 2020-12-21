@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.com": "conf",
+    "*.tech": "conf"
+  },
+  "files.autoGuessEncoding": true
+}
