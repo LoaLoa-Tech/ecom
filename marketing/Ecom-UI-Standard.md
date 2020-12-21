@@ -8,7 +8,6 @@
 
 - Tăng like cho Trang Fanpage của Loa Loa Ecom.
 
-
 ### Giải pháp
 
 Yêu cầu viết trên cơ sở của Ecom-UI nhánh **001**
@@ -37,4 +36,3 @@ Yêu cầu viết trên cơ sở của Ecom-UI nhánh **001**
 ### Lưu ý
 
 - Trong số 200 tài khoản được tạo có thể nhiều hơn 10 tài khoản đồng ý đăng ký tên miền. Nhưng chỉ chọn 10 đơn vị cài đặt Ecom UI Standard. Những đơn vị khác để cho chiến dịch quảng cáo khác.
-
