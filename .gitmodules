@@ -13,8 +13,8 @@
 [submodule "database"]
 	path = database
 	url = git@github.com:LoaLoa-Tech/database.git
-[submodule "ecom-static"]
-	path = ecom-static
+[submodule "frontends/ecom-static"]
+	path = frontends/ecom-static
 	url = git@github.com:LoaLoa-Tech/ecom-static.git
 [submodule "ecom-nginx"]
 	path = ecom-nginx
