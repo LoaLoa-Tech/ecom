@@ -19,3 +19,6 @@
 [submodule "ecom-nginx"]
 	path = ecom-nginx
 	url = git@github.com:LoaLoa-Tech/ecom-nginx.git
+[submodule "home"]
+	path = home
+	url = git@github.com:LoaLoa-Tech/home.git
