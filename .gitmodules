@@ -1,0 +1,18 @@
+[submodule "APIs/Ecom-CMS"]
+	path = APIs/Ecom-CMS
+	url = git@github.com:LoaLoa-Tech/Ecom-CMS.git
+[submodule "APIs/ecom-admin"]
+	path = APIs/ecom-admin
+	url = git@github.com:LoaLoa-Tech/ecom-admin.git
+[submodule "APIs/ezapi"]
+	path = APIs/ezapi
+	url = git@github.com:LoaLoa-Tech/ezapi.git
+[submodule "frontends/Ecom-UI-Standard"]
+	path = frontends/Ecom-UI-Standard
+	url = git@github.com:LoaLoa-Tech/Ecom-UI-Standard.git
+[submodule "database"]
+	path = database
+	url = git@github.com:LoaLoa-Tech/database.git
+[submodule "ecom-static"]
+	path = ecom-static
+	url = git@github.com:LoaLoa-Tech/ecom-static.git
