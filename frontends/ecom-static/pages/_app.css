@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;600&display=swap');
+body {
+  font-family: 'Nunito', sans-serif;
+}
+.btn-cirle {
+  border-radius: 30px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.text-main {
+  color: #08163b;
+}
+.logo {
+  max-height: 80px;
+}
+:root {
+  --primary: #08163b !important;
+}
+.border-1 {
+  border-radius: 8px;
+}
+.c-poiter {
+  cursor: pointer;
+}
+.img-banner {
+  width: 100%;
+}
+.short-intro-box {
+  background-color: #f4f5f6;
+  padding: 13px;
+  border-radius: 8px;
+}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}

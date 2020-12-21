@@ -1,0 +1,114 @@
+{
+    "primaryMenu": [
+        {
+            "text": "Homepage",
+            "url": "/",
+            "extraClass": "menu-item-has-children",
+            "subClass": "sub-menu",
+            "subMenu": [
+                {
+                    "text": "Homepage Default",
+                    "url": "/"
+                },
+                {
+                    "text": "Homepage Grid",
+                    "url": "/homepage/home-grid"
+                },
+                {
+                    "text": "Homepage Grid With Sidebar",
+                    "url": "/homepage/home-grid-with-sidebar"
+                },
+                {
+                    "text": "Homepage Minimalist",
+                    "url": "/homepage/home-minimalist"
+                }
+            ]
+        },
+        {
+            "text": "Blog Layout",
+            "url": "/blog",
+            "extraClass": "menu-item-has-children",
+            "subClass": "sub-menu",
+            "subMenu": [
+                {
+                    "text": "Classic Layout",
+                    "url": "/blog/classic-layout-left",
+                    "extraClass": "menu-item-has-children",
+                    "subClass": "sub-menu",
+                    "subMenu": [
+                        {
+                            "text": "Classic Layout Left",
+                            "url": "/blog/classic-layout-left"
+                        },
+                        {
+                            "text": "Classic Layout Right",
+                            "url": "/blog/classic-layout-right"
+                        },
+                        {
+                            "text": "Classic Layout Fullwidth",
+                            "url": "/blog/classic-layout-fullwidth"
+                        }
+                    ]
+                },
+                {
+                    "text": "Grid Layout",
+                    "url": "/blog",
+                    "extraClass": "menu-item-has-children",
+                    "subClass": "sub-menu",
+                    "subMenu": [
+                        {
+                            "text": "Grid Layout Left",
+                            "url": "/blog/grid-layout-left"
+                        },
+                        {
+                            "text": "Grid Layout Right",
+                            "url": "/blog/grid-layout-right"
+                        },
+                        {
+                            "text": "Grid Layout Fullwidth",
+                            "url": "/blog/grid-layout-fullwidth"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text": "Categories",
+            "url": "/category",
+            "endpoint": "travel",
+            "type": "dynamic",
+            "extraClass": "menu-item-has-children",
+            "subClass": "sub-menu",
+            "subMenu": [
+                {
+                    "text": "Travel",
+                    "url": "/category",
+                    "endpoint": "travel",
+                    "type": "dynamic"
+                },
+                {
+                    "text": "Lifestyle",
+                    "url": "/category",
+                    "endpoint": "life-style",
+                    "type": "dynamic"
+                },
+                {
+                    "text": "Technology",
+                    "url": "/category",
+                    "endpoint": "technology",
+                    "type": "dynamic"
+                }
+            ]
+        },
+        {
+            "text": "About",
+            "url": "/page/about-us",
+            "alias": "/about-us"
+        },
+        {
+            "text": "Contact",
+            "url": "/page/contact-us",
+            "alias": "/contact"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "primaryMenu": [
+        {
+            "text": "Homepage",
+            "url": "/",
+            "extraClass": "menu-item-has-children",
+            "subClass": "sub-menu",
+            "subMenu": [
+                {
+                    "text": "Homepage Default",
+                    "url": "/"
+                },
+                {
+                    "text": "Homepage Grid",
+                    "url": "/homepage/home-grid"
+                },
+                {
+                    "text": "Homepage Grid With Sidebar",
+                    "url": "/homepage/home-grid-with-sidebar"
+                },
+                {
+                    "text": "Homepage Minimalist",
+                    "url": "/homepage/home-minimalist"
+                }
+            ]
+        },
+        {
+            "text": "Categories",
+            "url": "/category",
+            "endpoint": "travel",
+            "type": "dynamic",
+            "extraClass": "menu-item-has-children",
+            "subClass": "sub-menu",
+            "subMenu": [
+                {
+                    "text": "Travel",
+                    "url": "/category",
+                    "endpoint": "travel",
+                    "type": "dynamic"
+                },
+                {
+                    "text": "Lifestyle",
+                    "url": "/category",
+                    "endpoint": "life-style",
+                    "type": "dynamic"
+                },
+                {
+                    "text": "Technology",
+                    "url": "/category",
+                    "endpoint": "technology",
+                    "type": "dynamic"
+                }
+            ]
+        },
+        {
+            "text": "About",
+            "url": "/page/about-us",
+            "alias": "/about-us"
+        },
+        {
+            "text": "Contact",
+            "url": "/page/contact-us",
+            "alias": "/contact"
+        }
+    ]
+}
