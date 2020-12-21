@@ -16,3 +16,6 @@
 [submodule "ecom-static"]
 	path = ecom-static
 	url = git@github.com:LoaLoa-Tech/ecom-static.git
+[submodule "ecom-nginx"]
+	path = ecom-nginx
+	url = git@github.com:LoaLoa-Tech/ecom-nginx.git
